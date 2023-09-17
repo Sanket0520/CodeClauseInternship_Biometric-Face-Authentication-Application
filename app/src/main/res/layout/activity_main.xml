@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainlayout"
+    android:visibility="gone"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Successfull Login"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:id="@+id/txt"
+
+        ></TextView>
+
+</LinearLayout>
